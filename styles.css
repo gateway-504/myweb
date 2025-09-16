@@ -31,7 +31,7 @@ header {
 }
 
 .logo-img {
-    height: clamp(30px, 5vw, 40px);
+    height: clamp(40px, 17vw, 50px);
     width: auto;
     image-rendering: pixelated;
 }
