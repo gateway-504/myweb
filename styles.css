@@ -212,11 +212,36 @@ nav ul li a:hover {
 .node {
     background: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     border-radius: 4px;
     text-align: center;
 }
-
+.node {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.node-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+    margin: 0.5rem auto 0.75rem;
+    image-rendering: auto;
+}
+.active-dot,
+.offline-dot {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    margin-right: 0;
+}
 .node h3 {
     font-size: clamp(1.2rem, 2.5vw, 1.5rem);
     margin-bottom: 0.5rem;
